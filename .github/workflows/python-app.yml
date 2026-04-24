@@ -30,10 +30,10 @@ jobs:
       - name: Instalando Poetry
         run: pip install poetry
 
-      - name: Instalando  dependencias do poetry
-        run: poetry install --no-root --no-interaction
+      - name: Instalando dependencias do poetry
+        run: poetry install --no-root --no-interaction --with dev
 
-      - name: Ruodando tests
+      - name: Rodando tests
         run: poetry run pytest
 
       - name: Build Docker image
