@@ -3,14 +3,12 @@ name = "tarefa19ebac"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Guilherme Zampar",email = "guilhermezampar90@gmail.com"}
+    { name = "Guilherme Zampar", email = "guilhermezampar90@gmail.com" }
 ]
 requires-python = ">=3.10,<4.0"
 dependencies = [
-    "fastapi[standard] (>=0.136.1,<0.137.0)",
-    "pytest (>=9.0.3,<10.0.0)"
+    "fastapi[standard] (>=0.136.1,<0.137.0)"
 ]
-
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
